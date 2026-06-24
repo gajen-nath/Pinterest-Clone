@@ -1,0 +1,30 @@
+{
+  "name": "pinterest-clone",
+  "version": "1.0.0",
+  "description": "It is a clone of pinterest",
+  "homepage": "https://github.com/gajen-nath/Pinterest-Clone#readme",
+  "bugs": {
+    "url": "https://github.com/gajen-nath/Pinterest-Clone/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gajen-nath/Pinterest-Clone.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/index.js",
+    "dev":"nodemon backend/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.2",
+    "nodemon": "^3.1.14"
+  }
+}
